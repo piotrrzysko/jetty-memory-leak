@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.eclipse.jetty', name: 'jetty-alpn-java-client', version: '11.0.15'
+    implementation group: 'org.eclipse.jetty.http2', name: 'http2-http-client-transport', version: '11.0.15'
+    implementation group: 'org.wiremock', name: 'wiremock-standalone', version: '3.3.1'
+}

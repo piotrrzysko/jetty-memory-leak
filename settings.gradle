@@ -1,0 +1,3 @@
+rootProject.name = 'jetty-memory-leak'
+
+include 'jetty11', 'jetty12'
